@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#prints a string 10 times
+x=0
+while [ $x -ne 10 ]
+do
+  echo "Best School"
+  if [ $x -eq 8 ]
+  then
+    echo "Hi"
+  fi
+  x=$(( x + 1 ))
+done
